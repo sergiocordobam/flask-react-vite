@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Cars from "./Cars";
-import Products from "./Products";
-import AppNavbar from "./Navbar";
-import Home from "./Home";
+import Cars from "../components/Cars";
+import Products from "../components/Products";
+import AppNavbar from "../components/Navbar";
+import Home from "../components/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

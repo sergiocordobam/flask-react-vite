@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import './Cars.css'
+import '../styles/Cars.css'
 
 function Cars() {
   const [cars, setCars] = useState([{}])
