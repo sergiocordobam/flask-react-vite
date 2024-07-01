@@ -11,6 +11,7 @@ const AppNavbar = () => {
                 <Nav className="me-auto">
                     <Nav.Link as={Link} to="/cars/list_cars" className="nav-link">Cars</Nav.Link>
                     <Nav.Link as={Link} to="/products/list_products" className="nav-link">Products</Nav.Link>
+                    <Nav.Link as={Link} to="/cdt/form" className="nav-link">CDT</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
