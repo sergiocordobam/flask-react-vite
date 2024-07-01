@@ -1,4 +1,4 @@
-from flask import Blueprint, redirect, url_for
+from flask import Blueprint, redirect, url_for, jsonify
 
 products_bp = Blueprint("products", __name__)
 
@@ -8,7 +8,9 @@ def index():
 
 @products_bp.route("/list_products")
 def list_products():
-    return "Product1, Product2, Product3"
+    return jsonify({
+        'products': 'Product1, Product2, Product3'
+    })
 
 @products_bp.route("/go_to_cars")
 def go_to_cars():
