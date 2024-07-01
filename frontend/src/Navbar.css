@@ -1,32 +1,12 @@
-nav {
-    background-color: #333;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
+.navbar-brand {
+    font-weight: bold;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+.nav-link {
+    color: #fff !important; /* Override Bootstrap's default link color */
+    margin-right: 1rem; /* Adjust spacing between navigation links */
 }
 
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-nav ul li a:hover {
-    color: #ddd;
-    text-decoration: underline;
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
 }

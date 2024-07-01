@@ -13,8 +13,6 @@ function Cars() {
     )
   }, []) 
 
-  
-
   return (
     <>
         <div className='cars'>
