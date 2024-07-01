@@ -4,7 +4,7 @@ import './Products.css'
 function Products() {
   const [products, setProducts] = useState([{}])
   useEffect(() => {
-    fetch("/list_products").then(
+    fetch("http://localhost:5000/products/list_products").then(
       res => res.json()
     ).then(
       products => {

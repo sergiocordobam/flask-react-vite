@@ -4,7 +4,7 @@ import './Cars.css'
 function Cars() {
   const [cars, setCars] = useState([{}])
   useEffect(() => {
-    fetch("/list_cars").then(
+    fetch("http://localhost:5000/cars/list_cars").then(
       res => res.json()
     ).then(
       cars => {
