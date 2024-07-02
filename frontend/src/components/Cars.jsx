@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import '../styles/Cars.css'
+import { Container } from 'react-bootstrap'
 
 function Cars() {
   const [cars, setCars] = useState([{}])
@@ -15,9 +16,9 @@ function Cars() {
 
   return (
     <>
-        <div className='cars'>
-            {cars.cars}
-        </div>
+        <Container className='cars d-flex justify-content-center align-items-center'>
+          {cars.cars}
+        </Container>
     </>
   )
 }

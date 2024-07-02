@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import '../styles/Products.css'
+import { Container } from 'react-bootstrap'
 
 function Products() {
   const [products, setProducts] = useState([{}])
@@ -15,9 +16,9 @@ function Products() {
 
   return (
     <>
-        <div className='products'>
-            {products.products}
-        </div>
+        <Container className='products d-flex justify-content-center align-items-center'>
+          {products.products}
+        </Container>
     </>
   )
 }

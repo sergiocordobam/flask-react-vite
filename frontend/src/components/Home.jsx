@@ -1,12 +1,13 @@
 import '../styles/Home.css'
+import { Container } from 'react-bootstrap'
 
 function Home() {
 
   return (
     <>
-        <div className='home'>
-            This is the Home Page
-        </div>
+        <Container className='home d-flex justify-content-center align-items-center'>
+          This is the Home Page
+        </Container>
     </>
   )
 }
