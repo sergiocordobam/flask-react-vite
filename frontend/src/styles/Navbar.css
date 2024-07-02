@@ -3,10 +3,14 @@
 }
 
 .nav-link {
-    color: #fff !important; /* Override Bootstrap's default link color */
+    color: #000000 !important; /* Override Bootstrap's default link color */
     margin-right: 1rem; /* Adjust spacing between navigation links */
 }
 
 .nav-link:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+.navbar-custom {
+    background-color: #4f96c5; /* Your custom color here */
 }

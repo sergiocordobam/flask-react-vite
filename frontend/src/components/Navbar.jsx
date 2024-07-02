@@ -5,7 +5,7 @@ import '../styles/Navbar.css';
 
 const AppNavbar = () => {
     return (
-        <Navbar bg="p-3 mb-2 bg-secondary text-white" variant="light">
+        <Navbar className='navbar-custom'>
             <Nav.Link as={Link} to="/">
                 <img alt="Logo" src="/btg-pactual-logo.png" className="d-inline-block align-top"/>
             </Nav.Link>
